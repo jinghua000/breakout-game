@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <canvas id="canvas"></canvas>
+    <div>
+        use left right arrow to move, up arrow to start.
+    </div>
+    <div>
+        <input type="radio" name="level" id="easy">
+        <label for="easy">easy</label>
+        <input type="radio" name="level" id="normal">
+        <label for="normal">normal</label>
+        <input type="radio" name="level" id="hard">
+        <label for="hard">hard</label>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
